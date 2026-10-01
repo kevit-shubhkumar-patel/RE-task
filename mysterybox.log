@@ -1,0 +1,46 @@
+2026-09-28 09:12:43 | INFO    | user=alice | action=login | ip=192.168.1.15
+2026-09-28 09:13:02 | INFO    | user=bob | action=download | file=report_2026.pdf
+2026-09-28 09:14:27 | WARNING | user=alice | action=login_failed | ip=192.168.1.15
+2026-09-28 09:14:31 | ERROR   | user=alice | action=login_failed | ip=192.168.1.15
+2026-09-28 09:15:10 | INFO    | user=charlie | action=payment | card=4111111111111111 | amount=$125.50
+2026-09-28 09:16:55 | INFO    | user=diana | action=download | file=data_export.csv
+2026-09-28 09:17:02 | ERROR   | user=alice | action=api_call | endpoint=/api/v1/users/123
+2026-09-28 09:18:45 | INFO    | user=admin | action=login | ip=172.16.0.10
+2026-09-28 09:19:01 | WARNING | user=bob | action=download | file=secret_backup.zip
+2026-09-28 09:20:11 | INFO    | user=eve | action=payment | card=5500000000000004 | amount=$9999.99
+2026-09-28 09:21:32 | INFO    | user=frank | action=login | ip=8.8.8.8
+2026-09-28 09:22:14 | ERROR   | user=eve | action=api_call | endpoint=/api/v2/admin/delete
+2026-09-28 09:23:45 | INFO    | user=alice | action=logout
+2026-09-28 09:24:01 | WARNING | user=admin | action=login_failed | ip=192.168.1.100
+2026-09-28 09:24:19 | ERROR   | user=admin | action=login_failed | ip=192.168.1.100
+2026-09-28 09:25:04 | INFO    | user=grace | action=download | file=monthly_report.csv
+2026-09-28 09:25:44 | INFO    | user=henry | action=download | file=admin_tools.exe
+2026-09-28 09:26:10 | WARNING | user=grace | action=download | file=backup_data.zip
+2026-09-28 09:26:52 | INFO    | user=system | action=health_check
+2026-09-28 09:27:15 | ERROR   | user=unknown | action=api_call | endpoint=/api/v1/status
+2026-09-28 09:27:49 | INFO    | user=alice | action=login_failed | ip=192.168.1.15
+2026-09-28 09:28:03 | WARNING | user=alice | action=login_failed | ip=192.168.1.15
+2026-09-28 09:28:45 | INFO    | user=ivan | action=download | file=notes.txt
+2026-09-28 09:29:11 | INFO    | user=julia | action=download | file=secret_script.sh
+2026-09-28 09:29:52 | INFO    | user=kate | action=payment | card=1234567890123456 | amount=$45.00
+2026-09-28 09:30:14 | ERROR   | user=julia | action=api_call | endpoint=/api/v1/users/delete
+2026-09-28 09:31:02 | INFO    | user=leo | action=login | ip=10.10.1.22
+2026-09-28 09:31:45 | WARNING | user=leo | action=login_failed | ip=10.10.1.22
+2026-09-28 09:32:20 | INFO    | user=mia | action=download | file=archive.tar.gz
+2026-09-28 09:33:01 | INFO    | user=noah | action=download | file=backup_notes.pdf
+2026-09-28 09:33:42 | INFO    | user=olivia | action=payment | card=4444333322221111 | amount=$210.00
+2026-09-28 09:34:15 | ERROR   | user=olivia | action=api_call | endpoint=/api/v2/admin/users
+2026-09-28 09:35:07 | INFO    | user=peter | action=login | ip=172.16.2.8
+2026-09-28 09:35:50 | WARNING | user=peter | action=download | file=PASSWORD_backup.EXE
+2026-09-28 09:36:22 | INFO    | user=quinn | action=download | file=readme.md
+2026-09-28 09:37:04 | ERROR   | user=alice | action=login_failed | ip=192.168.1.15
+2026-09-28 09:37:40 | INFO    | user=rachel | action=payment | amount=$75.25
+2026-09-28 09:38:12 | INFO    | user=steve | action=download | file=admin_config.sh
+2026-09-28 09:39:01 | WARNING | user=system | action=login_failed | ip=127.0.0.1
+2026-09-28 09:40:13 | INFO    | user=tina | action=download | file=holiday.jpg
+2026/09/28 09:40:55 | INFO    | user=tom | action=login
+2026-09-28 09:41:20 | INFO | username=bob | action=login
+This is not a valid log line
+2026-09-28 09:42:01 | DEBUG   | user=uma | action=login
+2026-09-28 09:42:35 | INFO    | user=victor
+2026-09-28 09:43:10 | ERROR   | user=wendy | action=api_call | endpoint=/api/v1/users/123 | note=failed
